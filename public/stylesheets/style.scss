@@ -1,0 +1,59 @@
+.container {
+    margin-top: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+
+    .cup1 {
+        cursor: pointer;
+        width: 80px;
+        height: 200px;
+        border: 2px solid rgb(0, 0, 0);
+        position: relative;
+        transform: rotate(180deg);
+
+        .water1 {
+            width: 80px;
+            height: 33px;
+            background-color: #193fc8;
+        }
+        .water2 {
+            width: 80px;
+            height: 33px;
+            background-color: #193fc8;
+        }
+        .water3 {
+            width: 80px;
+            height: 33px;
+            background-color: #193fc8;
+        }
+    }
+    .cup2 {
+        
+        cursor: pointer;
+        top: -150px;
+        transform: rotate(135deg);
+        width: 80px;
+        height: 200px;
+        border: 2px solid rgb(0, 0, 0);
+        position: relative;
+        margin-left: 100px;
+        
+        .water1 {
+            width: 80px;
+            height: 33px;
+            background-color: #193fc8;
+        }
+        .water2 {
+            width: 80px;
+            height: 33px;
+            background-color: #193fc8;
+        }
+        .water3 {
+            width: 80px;
+            height: 33px;
+            background-color: #193fc8;
+        }
+    }
+}
